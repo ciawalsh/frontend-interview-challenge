@@ -8,6 +8,11 @@ const greys = {
   black: '#000000',
 };
 
+const button = {
+  blue: '#2176ff',
+  green: '#6bff9a',
+};
+
 const status = {
   success: '#5AC20F',
   error: '#FF4C6A',
@@ -15,5 +20,6 @@ const status = {
 
 export default {
   greys,
+  button,
   status,
 };
