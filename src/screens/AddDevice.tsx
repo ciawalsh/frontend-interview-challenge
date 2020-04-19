@@ -22,11 +22,11 @@ interface Props {
 }
 
 const AddDevice = ({plants, dismissModal}: Props) => {
-  const [title, setTitle] = useState('');
-  const [loading, setLoading] = useState(false);
-  const [chosenPlant, setChosenPlant] = useState(0);
-  const [chosenDeviceType, setChosenDeviceType] = useState('');
-  const [disabled, setDisabled] = useState(true);
+  const [title, setTitle] = useState<string>('');
+  const [loading, setLoading] = useState<boolean>(false);
+  const [chosenPlant, setChosenPlant] = useState<number>(0);
+  const [chosenDeviceType, setChosenDeviceType] = useState<string>('');
+  const [disabled, setDisabled] = useState<boolean>(true);
 
   const checkDisabled = () => {
     if (title !== '' && chosenPlant !== 0 && chosenDeviceType !== '') {

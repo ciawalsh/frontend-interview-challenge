@@ -22,7 +22,7 @@ const DashboardScreen = () => {
   const [devices, setDevices] = useState<Device[]>([]);
   const [plants, setPlants] = useState<Plant[]>([]);
   const [showModal, setShowModal] = useState<boolean>(false);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState<boolean>(false);
   const user = useSelector((state: AppState) => state.user);
 
   const getData = async () => {
