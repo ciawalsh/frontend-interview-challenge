@@ -58,5 +58,5 @@ Or to run on Android
   - Instructions to press the pairing button on the physical device pops up and awaits pairing.
   - Device found, it knows if it’s a sensor or tap and asks you to name it and asks you to associate the plants that go with said sensor or tap.
   - Done
-- Once it's at more of a stable state, start adding some snapshot test's potentially. Adding detox for some critical E2E flows would be most beneficial too. At this point in time, I don't see the benefits of any tests, especially as we are meant to be rapidly prototyping. Things will be thrown in the bin constantly.
+- Once it's at more of a stable state, start adding some snapshot tests potentially. Adding detox for some critical E2E flows would be most beneficial too. At this point in time, I don't see the benefits of any tests, especially as we are meant to be rapidly prototyping. Things will be thrown in the bin constantly.
 - I would like the BE to report water levels/humitidy % etc. The more data the better... Would be great to tap into each sensor/tap/plant and get a real influx of data on each.
